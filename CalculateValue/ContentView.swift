@@ -32,7 +32,6 @@ struct ContentView: View {
                         .keyboardType(.numberPad)
                         .focused($holdView)
                         .modifier(ClearButton(value: $n))
-//                        .padding(.horizontal)
                 } header: {
                     Text("當N = \(n)")
                         .font(.title2)
